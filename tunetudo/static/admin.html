@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal - TuneTudo</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>🎵 TuneTudo Admin</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="playlists.html">Playlists</a>
+                <a href="uploads.html">My Library</a>
+                <a href="profile.html">Profile</a>
+                <a href="admin.html" class="active">Admin</a>
+            </div>
+            <div class="nav-auth">
+                <div class="user-menu">
+                    <span id="username"></span>
+                    <button class="btn btn-secondary" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>Admin Portal</h2>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('songs')">Manage Songs</button>
+            <button class="tab" onclick="switchTab('users')">Manage Users</button>
+        </div>
+
+        <!-- Songs Tab -->
+        <div id="songsTab" class="tab-content active">
+            <div class="page-header">
+                <h3>Song Catalog</h3>
+                <button class="btn btn-primary" onclick="showAddSongModal()">+ Add New Song</button>
+            </div>
+
+            <div class="table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Artist</th>
+                            <th>Album</th>
+                            <th>Category</th>
+                            <th>Duration</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="songsTableBody"></tbody>
+                </table>
+            </div>
+
+            <div class="pagination">
+                <button class="btn btn-secondary" onclick="loadPreviousPage()" id="prevBtn" disabled>Previous</button>
+                <span id="pageInfo">Page 1</span>
+                <button class="btn btn-secondary" onclick="loadNextPage()" id="nextBtn">Next</button>
+            </div>
+        </div>
+
+        <!-- Users Tab -->
+        <div id="usersTab" class="tab-content">
+            <h3>User Management</h3>
+            <div class="table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Created At</th>
+                            <th>Last Login</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Song Modal -->
+    <div id="addSongModal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close" onclick="closeAddSongModal()">&times;</span>
+            <h2>Add New Song to Catalog</h2>
+            <form id="addSongForm" onsubmit="uploadSong(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Song Title *</label>
+                        <input type="text" id="songTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Artist Name *</label>
+                        <input type="text" id="artistName" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Album Title</label>
+                        <input type="text" id="albumTitle">
+                    </div>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select id="categorySelect">
+                            <option value="">Select category...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Duration (seconds)</label>
+                        <input type="number" id="duration" min="0" placeholder="e.g., 240">
+                    </div>
+                    <div class="form-group">
+                        <label>Audio File *</label>
+                        <input type="file" id="songFile" accept=".mp4,.wav,.mp3" required>
+                        <small>Max size: 50MB | Formats: MP4, WAV, MP3</small>
+                    </div>
+                </div>
+
+                <div id="uploadProgress" class="upload-progress" style="display: none;">
+                    <div class="progress-bar">
+                        <div id="progressBarFill" class="progress-fill"></div>
+                    </div>
+                    <p id="progressText">Uploading...</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="uploadBtn">Add Song to Catalog</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDeleteModal()">&times;</span>
+            <h2>Confirm Delete</h2>
+            <p>Are you sure you want to delete this song from the catalog?</p>
+            <p><strong id="deleteSongTitle"></strong></p>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="closeDeleteModal()">Cancel</button>
+                <button class="btn btn-danger" onclick="confirmDelete()">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/admin.js"></script>
+</body>
+</html>

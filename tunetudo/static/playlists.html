@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlists - TuneTudo</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>🎵 TuneTudo</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="playlists.html" class="active">Playlists</a>
+                <a href="uploads.html">My Library</a>
+                <a href="profile.html">Profile</a>
+                <a href="admin.html" id="adminLink" style="display: none;">Admin</a>
+            </div>
+            <div class="nav-auth">
+                <div class="user-menu">
+                    <span id="username"></span>
+                    <button class="btn btn-secondary" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>My Playlists</h2>
+            <button class="btn btn-primary" onclick="showCreatePlaylistModal()">+ Create Playlist</button>
+        </div>
+
+        <div id="playlistsGrid" class="playlists-grid"></div>
+        
+        <div id="noPlaylists" class="empty-state" style="display: none;">
+            <h3>No playlists yet</h3>
+            <p>Create your first playlist to start organizing your music!</p>
+            <button class="btn btn-primary" onclick="showCreatePlaylistModal()">Create Playlist</button>
+        </div>
+    </div>
+
+    <!-- Create Playlist Modal -->
+    <div id="createPlaylistModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCreatePlaylistModal()">&times;</span>
+            <h2>Create New Playlist</h2>
+            <form id="createPlaylistForm" onsubmit="createPlaylist(event)">
+                <div class="form-group">
+                    <label>Playlist Name</label>
+                    <input type="text" id="playlistName" required>
+                </div>
+                <div class="form-group">
+                    <label>Description (Optional)</label>
+                    <textarea id="playlistDescription" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Create Playlist</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Playlist Details Modal -->
+    <div id="playlistDetailsModal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close" onclick="closePlaylistDetailsModal()">&times;</span>
+            <div class="playlist-header">
+                <h2 id="playlistDetailsName"></h2>
+                <button class="btn btn-danger" onclick="deleteCurrentPlaylist()">Delete Playlist</button>
+            </div>
+            <p id="playlistDetailsDescription"></p>
+            
+            <h3>Songs</h3>
+            <div id="playlistSongs" class="playlist-songs"></div>
+            
+            <div id="noSongs" class="empty-state" style="display: none;">
+                <p>No songs in this playlist yet. Search for songs and add them!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add to Playlist Modal -->
+    <div id="addToPlaylistModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAddToPlaylistModal()">&times;</span>
+            <h2>Add to Playlist</h2>
+            <div id="playlistSelectionList" class="playlist-selection"></div>
+        </div>
+    </div>
+
+    <!-- Audio Player -->
+    <div id="audioPlayer" class="audio-player" style="display: none;">
+        <div class="player-content">
+            <div class="player-info">
+                <span id="playerSongTitle">No song playing</span>
+                <span id="playerArtist"></span>
+            </div>
+            <div class="player-controls">
+                <button onclick="playPause()" id="playPauseBtn">▶️</button>
+                <audio id="audioElement" controls></audio>
+                <button onclick="closePlayer()">✖️</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/playlists.js"></script>
+</body>
+</html>

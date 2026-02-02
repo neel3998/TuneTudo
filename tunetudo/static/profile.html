@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - TuneTudo</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>🎵 TuneTudo</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="playlists.html">Playlists</a>
+                <a href="uploads.html">My Library</a>
+                <a href="profile.html" class="active">Profile</a>
+                <a href="admin.html" id="adminLink" style="display: none;">Admin</a>
+            </div>
+            <div class="nav-auth">
+                <div class="user-menu">
+                    <span id="username"></span>
+                    <button class="btn btn-secondary" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>My Profile</h2>
+        </div>
+
+        <div class="profile-container">
+            <!-- Profile Picture Section -->
+            <div class="profile-card">
+                <h3>Profile Picture</h3>
+                <div class="profile-picture-section">
+                    <div class="profile-picture-display">
+                        <img id="profileImage" src="/static/images/default-avatar.png" alt="Profile Picture" onerror="this.src='/static/images/default-avatar.png'">
+                    </div>
+                    <button class="btn btn-primary" onclick="showUploadPictureModal()">Change Picture</button>
+                </div>
+            </div>
+
+            <!-- Account Information -->
+            <div class="profile-card">
+                <h3>Account Information</h3>
+                <div class="profile-info">
+                    <div class="info-row">
+                        <label>Username:</label>
+                        <span id="profileUsername">-</span>
+                    </div>
+                    <div class="info-row">
+                        <label>Email:</label>
+                        <span id="profileEmail">-</span>
+                    </div>
+                    <div class="info-row">
+                        <label>Account Type:</label>
+                        <span id="profileRole">User</span>
+                    </div>
+                    <div class="info-row">
+                        <label>Member Since:</label>
+                        <span id="profileCreatedAt">-</span>
+                    </div>
+                    <div class="info-row">
+                        <label>Last Login:</label>
+                        <span id="profileLastLogin">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="profile-card">
+                <h3>My Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h4 id="playlistCount">0</h4>
+                        <p>Playlists</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4 id="totalSongsInPlaylists">0</h4>
+                        <p>Songs in Playlists</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Account Actions -->
+        </div>
+    </div>
+
+    <!-- Upload Picture Modal -->
+    <div id="uploadPictureModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeUploadPictureModal()">&times;</span>
+            <h2>Upload Profile Picture</h2>
+            <form id="uploadPictureForm" onsubmit="uploadProfilePicture(event)">
+                <div class="form-group">
+                    <label>Select Image</label>
+                    <input type="file" id="pictureFile" accept=".jpg,.jpeg,.png" required>
+                    <small>Max size: 5MB | Formats: JPG, PNG</small>
+                </div>
+                <div class="image-preview" id="imagePreview" style="display: none;">
+                    <img id="previewImage" src="" alt="Preview">
+                </div>
+                <div id="uploadProgress" class="upload-progress" style="display: none;">
+                    <div class="progress-bar">
+                        <div id="progressBarFill" class="progress-fill"></div>
+                    </div>
+                    <p id="progressText">Uploading...</p>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" id="uploadBtn">Upload Picture</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Change Password Modal -->
+    <div id="changePasswordModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeChangePasswordModal()">&times;</span>
+            <h2>Change Password</h2>
+            <form id="changePasswordForm" onsubmit="changePassword(event)">
+                <div class="form-group">
+                    <label>Current Password</label>
+                    <input type="password" id="currentPassword" required>
+                </div>
+                <div class="form-group">
+                    <label>New Password (min 8 characters)</label>
+                    <input type="password" id="newPassword" required minlength="8">
+                </div>
+                <div class="form-group">
+                    <label>Confirm New Password</label>
+                    <input type="password" id="confirmPassword" required minlength="8">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Change Password</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/profile.js"></script>
+</body>
+</html>

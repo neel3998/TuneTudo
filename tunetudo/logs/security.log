@@ -1,0 +1,211 @@
+[SECURITY] 2025/11/27 17:06:43 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-27T17:06:43-05:00
+[SECURITY] 2025/11/27 17:06:43 logger.go:162: Event: AUTH_FAILED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Invalid credentials | Time: 2025-11-27T17:06:43-05:00
+[SECURITY] 2025/11/27 17:06:43 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-27T17:06:43-05:00
+[SECURITY] 2025/11/27 17:07:00 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-27T17:07:00-05:00
+[SECURITY] 2025/11/27 17:07:00 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-27T17:07:00-05:00
+[SECURITY] 2025/11/27 17:07:00 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-27T17:07:00-05:00
+[SECURITY] 2025/11/27 17:09:39 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-27T17:09:39-05:00
+[SECURITY] 2025/11/27 17:09:40 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/playlists/* | Time: 2025-11-27T17:09:40-05:00
+[SECURITY] 2025/11/27 17:10:18 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-27T17:10:18-05:00
+[SECURITY] 2025/11/27 17:10:19 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists/* | Time: 2025-11-27T17:10:19-05:00
+[SECURITY] 2025/11/27 17:10:23 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: DELETE /api/playlists/* | Time: 2025-11-27T17:10:23-05:00
+[SECURITY] 2025/11/27 17:10:23 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists/* | Time: 2025-11-27T17:10:23-05:00
+[SECURITY] 2025/11/27 17:11:04 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-27T17:11:04-05:00
+[SECURITY] 2025/11/27 17:13:03 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-27T17:13:03-05:00
+[SECURITY] 2025/11/27 17:13:03 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_88d4266f | IP: 127.0.x.x | Details: User registered successfully | Time: 2025-11-27T17:13:03-05:00
+[SECURITY] 2025/11/27 17:13:16 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-27T17:13:16-05:00
+[SECURITY] 2025/11/27 17:13:16 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_88d4266f | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-27T17:13:16-05:00
+[SECURITY] 2025/11/27 17:13:16 logger.go:162: Event: SESSION_CREATED | UserHash: user_88d4266f | IP: 127.0.x.x | Details: New session established | Time: 2025-11-27T17:13:16-05:00
+[SECURITY] 2025/11/27 17:28:53 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-27T17:28:53-05:00
+[SECURITY] 2025/11/27 17:28:53 logger.go:162: Event: AUTH_FAILED | UserHash: user_c308df8d | IP: 127.0.x.x | Details: Account not found | Time: 2025-11-27T17:28:53-05:00
+[SECURITY] 2025/11/27 17:28:53 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-27T17:28:53-05:00
+[SECURITY] 2025/11/27 17:29:02 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-27T17:29:02-05:00
+[SECURITY] 2025/11/27 17:29:02 logger.go:162: Event: AUTH_FAILED | UserHash: user_c308df8d | IP: 127.0.x.x | Details: Account not found | Time: 2025-11-27T17:29:02-05:00
+[SECURITY] 2025/11/27 17:29:02 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-27T17:29:02-05:00
+[SECURITY] 2025/11/29 20:01:33 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: q | Reason: Suspicious pattern detected | Time: 2025-11-29T20:01:33-05:00
+[SECURITY] 2025/11/29 20:03:44 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: q | Reason: Suspicious pattern detected | Time: 2025-11-29T20:03:44-05:00
+[SECURITY] 2025/11/29 20:06:57 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: q | Reason: Suspicious pattern detected | Time: 2025-11-29T20:06:57-05:00
+[SECURITY] 2025/11/29 20:08:19 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: test' OR 1=1; | Reason: Suspicious pattern detected | Time: 2025-11-29T20:08:19-05:00
+[SECURITY] 2025/11/29 20:09:41 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:09:41-05:00
+[SECURITY] 2025/11/29 20:09:41 logger.go:162: Event: AUTH_FAILED | UserHash: user_8c6976e5 | IP: 127.0.x.x | Details: Invalid credentials | Time: 2025-11-29T20:09:41-05:00
+[SECURITY] 2025/11/29 20:09:41 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-29T20:09:41-05:00
+[SECURITY] 2025/11/29 20:09:45 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:09:45-05:00
+[SECURITY] 2025/11/29 20:09:45 logger.go:162: Event: AUTH_FAILED | UserHash: user_c308df8d | IP: 127.0.x.x | Details: Account not found | Time: 2025-11-29T20:09:45-05:00
+[SECURITY] 2025/11/29 20:09:45 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-29T20:09:45-05:00
+[SECURITY] 2025/11/29 20:10:52 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:10:52-05:00
+[SECURITY] 2025/11/29 20:10:52 logger.go:162: Event: AUTH_FAILED | UserHash: user_8c6976e5 | IP: 127.0.x.x | Details: Invalid credentials | Time: 2025-11-29T20:10:52-05:00
+[SECURITY] 2025/11/29 20:10:52 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-29T20:10:52-05:00
+[SECURITY] 2025/11/29 20:10:58 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:10:58-05:00
+[SECURITY] 2025/11/29 20:10:58 logger.go:162: Event: AUTH_FAILED | UserHash: user_8c6976e5 | IP: 127.0.x.x | Details: Invalid credentials | Time: 2025-11-29T20:10:58-05:00
+[SECURITY] 2025/11/29 20:10:58 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-29T20:10:58-05:00
+[SECURITY] 2025/11/29 20:11:40 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:11:40-05:00
+[SECURITY] 2025/11/29 20:11:40 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: User registered successfully | Time: 2025-11-29T20:11:40-05:00
+[SECURITY] 2025/11/29 20:13:58 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:13:58-05:00
+[SECURITY] 2025/11/29 20:13:58 logger.go:162: Event: AUTH_FAILED | UserHash: user_8c6976e5 | IP: 127.0.x.x | Details: Invalid credentials | Time: 2025-11-29T20:13:58-05:00
+[SECURITY] 2025/11/29 20:13:58 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-11-29T20:13:58-05:00
+[SECURITY] 2025/11/29 20:14:02 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:14:02-05:00
+[SECURITY] 2025/11/29 20:14:03 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:14:03-05:00
+[SECURITY] 2025/11/29 20:14:07 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T20:14:07-05:00
+[SECURITY] 2025/11/29 20:14:07 logger.go:162: Event: SESSION_CREATED | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T20:14:07-05:00
+[SECURITY] 2025/11/29 20:14:08 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:14:08-05:00
+[SECURITY] 2025/11/29 20:14:09 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T20:14:09-05:00
+[SECURITY] 2025/11/29 20:14:09 logger.go:162: Event: SESSION_CREATED | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T20:14:09-05:00
+[SECURITY] 2025/11/29 20:14:13 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T20:14:13-05:00
+[SECURITY] 2025/11/29 20:14:13 logger.go:162: Event: SESSION_CREATED | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T20:14:13-05:00
+[SECURITY] 2025/11/29 20:14:30 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T20:14:30-05:00
+[SECURITY] 2025/11/29 20:14:30 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T20:14:30-05:00
+[SECURITY] 2025/11/29 20:14:30 logger.go:162: Event: SESSION_CREATED | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T20:14:30-05:00
+[SECURITY] 2025/11/29 20:14:31 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/admin/* | Time: 2025-11-29T20:14:31-05:00
+[SECURITY] 2025/11/29 20:14:31 logger.go:162: Event: ADMIN_ACTION | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Action: GET /api/admin/songs | Details: Admin endpoint accessed | Time: 2025-11-29T20:14:31-05:00
+[SECURITY] 2025/11/29 20:15:06 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/admin/* | Time: 2025-11-29T20:15:06-05:00
+[SECURITY] 2025/11/29 20:15:06 logger.go:162: Event: ADMIN_ACTION | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Action: POST /api/admin/songs | Details: Admin endpoint accessed | Time: 2025-11-29T20:15:06-05:00
+[SECURITY] 2025/11/29 20:15:06 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/admin/* | Time: 2025-11-29T20:15:06-05:00
+[SECURITY] 2025/11/29 20:15:06 logger.go:162: Event: ADMIN_ACTION | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Action: GET /api/admin/songs | Details: Admin endpoint accessed | Time: 2025-11-29T20:15:06-05:00
+[SECURITY] 2025/11/29 20:15:10 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-29T20:15:10-05:00
+[SECURITY] 2025/11/29 20:15:11 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-29T20:15:11-05:00
+[SECURITY] 2025/11/29 20:15:12 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/profile | Time: 2025-11-29T20:15:12-05:00
+[SECURITY] 2025/11/29 20:15:12 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-29T20:15:12-05:00
+[SECURITY] 2025/11/29 20:15:15 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/admin/* | Time: 2025-11-29T20:15:15-05:00
+[SECURITY] 2025/11/29 20:15:15 logger.go:162: Event: ADMIN_ACTION | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Action: GET /api/admin/songs | Details: Admin endpoint accessed | Time: 2025-11-29T20:15:15-05:00
+[SECURITY] 2025/11/29 20:15:20 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/admin/* | Time: 2025-11-29T20:15:20-05:00
+[SECURITY] 2025/11/29 20:15:20 logger.go:162: Event: ADMIN_ACTION | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Action: GET /api/admin/users | Details: Admin endpoint accessed | Time: 2025-11-29T20:15:20-05:00
+[SECURITY] 2025/11/29 21:23:05 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-29T21:23:05-05:00
+[SECURITY] 2025/11/29 21:23:06 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-29T21:23:06-05:00
+[SECURITY] 2025/11/29 21:24:49 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-29T21:24:49-05:00
+[SECURITY] 2025/11/29 21:46:16 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: test' OR 1=1; | Reason: Suspicious pattern detected | Time: 2025-11-29T21:46:16-05:00
+[SECURITY] 2025/11/29 22:32:39 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T22:32:39-05:00
+[SECURITY] 2025/11/29 22:32:39 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T22:32:39-05:00
+[SECURITY] 2025/11/29 22:32:39 logger.go:162: Event: SESSION_CREATED | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T22:32:39-05:00
+[SECURITY] 2025/11/29 22:32:40 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/admin/* | Time: 2025-11-29T22:32:40-05:00
+[SECURITY] 2025/11/29 22:32:40 logger.go:162: Event: ADMIN_ACTION | UserHash: user_1c142b2d | IP: 127.0.x.x | Details: Action: GET /api/admin/songs | Details: Admin endpoint accessed | Time: 2025-11-29T22:32:40-05:00
+[SECURITY] 2025/11/29 22:41:28 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T22:41:28-05:00
+[SECURITY] 2025/11/29 22:41:28 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T22:41:28-05:00
+[SECURITY] 2025/11/29 22:41:28 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T22:41:28-05:00
+[SECURITY] 2025/11/29 22:41:40 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-29T22:41:40-05:00
+[SECURITY] 2025/11/29 22:43:45 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T22:43:45-05:00
+[SECURITY] 2025/11/29 22:43:45 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T22:43:45-05:00
+[SECURITY] 2025/11/29 22:43:45 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T22:43:45-05:00
+[SECURITY] 2025/11/29 22:43:49 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-29T22:43:49-05:00
+[SECURITY] 2025/11/29 23:00:21 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-29T23:00:21-05:00
+[SECURITY] 2025/11/29 23:00:21 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-29T23:00:21-05:00
+[SECURITY] 2025/11/29 23:00:21 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-29T23:00:21-05:00
+[SECURITY] 2025/11/30 13:43:35 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T13:43:35-05:00
+[SECURITY] 2025/11/30 13:43:35 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_7c8c485c | IP: 127.0.x.x | Details: User registered successfully | Time: 2025-11-30T13:43:35-05:00
+[SECURITY] 2025/11/30 13:43:48 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T13:43:48-05:00
+[SECURITY] 2025/11/30 13:43:48 logger.go:162: Event: PASSWORD_RESET_REQUESTED | UserHash: neelnew | IP: neelpatel272000@gmail.com | Details: Password reset token generated (expires: 2025-11-30 13:58:48.242702 -0500 EST m=+1108.437761501) | Time: 2025-11-30T13:43:48-05:00
+[SECURITY] 2025/11/30 13:44:08 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/auth/* | Time: 2025-11-30T13:44:08-05:00
+[SECURITY] 2025/11/30 13:44:26 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T13:44:26-05:00
+[SECURITY] 2025/11/30 13:44:26 logger.go:162: Event: PASSWORD_RESET_SUCCESS | UserHash: neelnew | IP: neelpatel272000@gmail.com | Details: Password reset completed | Time: 2025-11-30T13:44:26-05:00
+[SECURITY] 2025/11/30 13:44:40 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T13:44:40-05:00
+[SECURITY] 2025/11/30 13:44:41 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_7c8c485c | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-30T13:44:41-05:00
+[SECURITY] 2025/11/30 13:44:41 logger.go:162: Event: SESSION_CREATED | UserHash: user_7c8c485c | IP: 127.0.x.x | Details: New session established | Time: 2025-11-30T13:44:41-05:00
+[SECURITY] 2025/11/30 13:45:59 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T13:45:59-05:00
+[SECURITY] 2025/11/30 13:46:04 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/playlists | Time: 2025-11-30T13:46:04-05:00
+[SECURITY] 2025/11/30 13:46:04 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T13:46:04-05:00
+[SECURITY] 2025/11/30 13:46:09 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T13:46:09-05:00
+[SECURITY] 2025/11/30 13:46:10 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/playlists/* | Time: 2025-11-30T13:46:10-05:00
+[SECURITY] 2025/11/30 13:46:12 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T13:46:12-05:00
+[SECURITY] 2025/11/30 13:46:12 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists/* | Time: 2025-11-30T13:46:12-05:00
+[SECURITY] 2025/11/30 13:46:27 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-30T13:46:27-05:00
+[SECURITY] 2025/11/30 13:46:31 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/profile | Time: 2025-11-30T13:46:31-05:00
+[SECURITY] 2025/11/30 13:46:31 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T13:46:31-05:00
+[SECURITY] 2025/11/30 13:46:31 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-30T13:46:31-05:00
+[SECURITY] 2025/11/30 16:45:02 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: test' OR 1=1; | Reason: Suspicious pattern detected | Time: 2025-11-30T16:45:02-05:00
+[SECURITY] 2025/11/30 16:45:09 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: test' OR 1=1; | Reason: Suspicious pattern detected | Time: 2025-11-30T16:45:09-05:00
+[SECURITY] 2025/11/30 16:48:19 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T16:48:19-05:00
+[SECURITY] 2025/11/30 16:48:19 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-30T16:48:19-05:00
+[SECURITY] 2025/11/30 16:48:19 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-30T16:48:19-05:00
+[SECURITY] 2025/11/30 16:48:22 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T16:48:22-05:00
+[SECURITY] 2025/11/30 16:48:22 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-30T16:48:22-05:00
+[SECURITY] 2025/11/30 16:48:22 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-30T16:48:22-05:00
+[SECURITY] 2025/11/30 16:48:27 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T16:48:27-05:00
+[SECURITY] 2025/11/30 16:48:30 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-30T16:48:30-05:00
+[SECURITY] 2025/11/30 16:54:26 logger.go:162: Event: VALIDATION_FAILURE | UserHash: anonymous | IP: 127.0.x.x | Details: Field: <script>alert('XSS');</script> | Reason: Suspicious pattern detected | Time: 2025-11-30T16:54:26-05:00
+[SECURITY] 2025/11/30 16:58:45 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T16:58:45-05:00
+[SECURITY] 2025/11/30 16:58:45 logger.go:162: Event: PASSWORD_RESET_REQUESTED | UserHash: neelnew | IP: neelpatel272000@gmail.com | Details: Password reset token generated (expires: 2025-11-30 17:13:45.548231 -0500 EST m=+2555.656547710) | Time: 2025-11-30T16:58:45-05:00
+[SECURITY] 2025/11/30 16:59:06 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/auth/* | Time: 2025-11-30T16:59:06-05:00
+[SECURITY] 2025/11/30 17:04:00 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/auth/* | Time: 2025-11-30T17:04:00-05:00
+[SECURITY] 2025/11/30 17:04:00 logger.go:162: Event: AUTH_SUCCESS | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: Login successful | Time: 2025-11-30T17:04:00-05:00
+[SECURITY] 2025/11/30 17:04:00 logger.go:162: Event: SESSION_CREATED | UserHash: user_63435ea6 | IP: 127.0.x.x | Details: New session established | Time: 2025-11-30T17:04:00-05:00
+[SECURITY] 2025/11/30 17:45:18 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T17:45:18-05:00
+[SECURITY] 2025/11/30 17:45:19 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists/* | Time: 2025-11-30T17:45:19-05:00
+[SECURITY] 2025/11/30 17:45:21 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: DELETE /api/playlists/* | Time: 2025-11-30T17:45:21-05:00
+[SECURITY] 2025/11/30 17:45:21 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T17:45:21-05:00
+[SECURITY] 2025/11/30 17:45:26 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/playlists | Time: 2025-11-30T17:45:26-05:00
+[SECURITY] 2025/11/30 17:45:26 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T17:45:26-05:00
+[SECURITY] 2025/11/30 17:45:27 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-30T17:45:27-05:00
+[SECURITY] 2025/11/30 17:45:30 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T17:45:30-05:00
+[SECURITY] 2025/11/30 17:45:30 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: POST /api/playlists/* | Time: 2025-11-30T17:45:30-05:00
+[SECURITY] 2025/11/30 17:45:33 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/playlists | Time: 2025-11-30T17:45:33-05:00
+[SECURITY] 2025/11/30 17:45:34 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: GET /api/uploads | Time: 2025-11-30T17:45:34-05:00
+[SECURITY] 2025/12/08 09:22:13 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:22:13-05:00
+[SECURITY] 2025/12/08 09:22:13 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:22:13-05:00
+[SECURITY] 2025/12/08 09:22:13 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:13-05:00
+[SECURITY] 2025/12/08 09:22:13 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:22:13-05:00
+[SECURITY] 2025/12/08 09:22:14 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:22:14-05:00
+[SECURITY] 2025/12/08 09:22:14 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:22:14-05:00
+[SECURITY] 2025/12/08 09:22:14 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:14-05:00
+[SECURITY] 2025/12/08 09:22:14 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:22:14-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:15 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:22:15-05:00
+[SECURITY] 2025/12/08 09:22:17 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:17-05:00
+[SECURITY] 2025/12/08 09:22:17 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:22:17-05:00
+[SECURITY] 2025/12/08 09:22:17 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:22:17-05:00
+[SECURITY] 2025/12/08 09:22:17 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:22:17-05:00
+[SECURITY] 2025/12/08 09:22:36 logger.go:162: Event: DATA_ACCESS | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: OPTIONS /api/auth/* | Time: 2025-12-08T09:22:36-05:00
+[SECURITY] 2025/12/08 09:22:36 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: No authorization token provided | Time: 2025-12-08T09:22:36-05:00
+[SECURITY] 2025/12/08 09:22:36 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/auth/* | Reason: Authentication required | Time: 2025-12-08T09:22:36-05:00
+[SECURITY] 2025/12/08 09:23:07 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:07-05:00
+[SECURITY] 2025/12/08 09:23:07 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:07-05:00
+[SECURITY] 2025/12/08 09:23:07 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:07-05:00
+[SECURITY] 2025/12/08 09:23:07 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:07-05:00
+[SECURITY] 2025/12/08 09:23:09 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:09-05:00
+[SECURITY] 2025/12/08 09:23:09 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:09-05:00
+[SECURITY] 2025/12/08 09:23:09 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:09-05:00
+[SECURITY] 2025/12/08 09:23:09 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:09-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:11 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:11-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:12 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:12-05:00
+[SECURITY] 2025/12/08 09:23:34 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:34-05:00
+[SECURITY] 2025/12/08 09:23:34 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:34-05:00
+[SECURITY] 2025/12/08 09:23:34 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:34-05:00
+[SECURITY] 2025/12/08 09:23:34 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:34-05:00
+[SECURITY] 2025/12/08 09:23:36 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: No authorization token provided | Time: 2025-12-08T09:23:36-05:00
+[SECURITY] 2025/12/08 09:23:36 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: No authorization token provided | Time: 2025-12-08T09:23:36-05:00
+[SECURITY] 2025/12/08 09:23:36 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/songs/* | Reason: Authentication required | Time: 2025-12-08T09:23:36-05:00
+[SECURITY] 2025/12/08 09:23:36 logger.go:162: Event: ACCESS_DENIED | UserHash: anonymous | IP: 127.0.x.x | Details: Resource: /api/categories | Reason: Authentication required | Time: 2025-12-08T09:23:36-05:00

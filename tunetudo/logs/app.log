@@ -1,0 +1,619 @@
+[INFO] 2025/11/27 17:05:56 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/27 17:05:56 logger.go:120: [DATABASE] Database initialized at: /Users/neelpatel/UMD Sem 1/ENPM680/ENPM680Fall25Project-neelp27/enpm680fall25project-neelp27/tunetudo/tunetudo.db
+[INFO] 2025/11/27 17:05:56 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/27 17:05:56 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/27 17:05:56 logger.go:120: [API] 🔗 URL: http://localhost:2701
+[INFO] 2025/11/27 17:05:56 logger.go:120: [FILE] 📂 Static files: ./static
+[INFO] 2025/11/27 17:05:56 logger.go:120: [DATABASE] 💾 Database: ./tunetudo.db
+[INFO] 2025/11/27 17:05:56 logger.go:120: [API] 📝 Logs: logs/app.log
+[INFO] 2025/11/27 17:06:01 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:06:01 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:06:02 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:06:25 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:07:00 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/27 17:07:01 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:07:26 logger.go:120: [FILE] Song stream authorized: song_id=6
+[ERROR] 2025/11/27 17:07:26 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/27 17:07:26 logger.go:142: [API] Request error
+[INFO] 2025/11/27 17:09:40 logger.go:120: [PLAYLIST] Song added to playlist: playlist_id=8 song_id=6
+[INFO] 2025/11/27 17:10:16 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:10:23 logger.go:120: [PLAYLIST] Song removed from playlist: playlist_id=8 song_id=6
+[INFO] 2025/11/27 17:10:31 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:11:08 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:12:39 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:13:03 logger.go:120: [AUTH] New user registered: ID=7
+[INFO] 2025/11/27 17:13:16 logger.go:120: [AUTH] User login: user_id=7 from IP=127.0.x.x
+[INFO] 2025/11/27 17:13:17 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:13:44 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/27 17:28:50 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/27 17:28:50 logger.go:120: [DATABASE] Database initialized at: /Users/neelpatel/UMD Sem 1/ENPM680/ENPM680Fall25Project-neelp27/enpm680fall25project-neelp27/tunetudo/tunetudo.db
+[INFO] 2025/11/27 17:28:50 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/27 17:28:50 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/27 17:28:50 logger.go:120: [API] 🔗 URL: http://localhost:2701
+[INFO] 2025/11/27 17:28:50 logger.go:120: [FILE] 📂 Static files: ./static
+[INFO] 2025/11/27 17:28:50 logger.go:120: [DATABASE] 💾 Database: ./tunetudo.db
+[INFO] 2025/11/27 17:28:50 logger.go:120: [API] 📝 Logs: logs/app.log
+[INFO] 2025/11/29 20:00:37 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 20:00:37 logger.go:120: [DATABASE] Database initialized at: /Users/neelpatel/UMD Sem 1/ENPM680/ENPM680Fall25Project-neelp27/enpm680fall25project-neelp27/tunetudo/tunetudo.db
+[INFO] 2025/11/29 20:00:37 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 20:00:37 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/29 20:00:37 logger.go:120: [API] 🔗 URL: http://localhost:2701
+[INFO] 2025/11/29 20:00:37 logger.go:120: [FILE] 📂 Static files: ./static
+[INFO] 2025/11/29 20:00:37 logger.go:120: [DATABASE] 💾 Database: ./tunetudo.db
+[INFO] 2025/11/29 20:00:37 logger.go:120: [API] 📝 Logs: logs/app.log
+[INFO] 2025/11/29 20:00:41 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 20:06:44 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 20:06:44 logger.go:120: [DATABASE] Database initialized at: /Users/neelpatel/UMD Sem 1/ENPM680/ENPM680Fall25Project-neelp27/enpm680fall25project-neelp27/tunetudo/tunetudo.db
+[INFO] 2025/11/29 20:06:44 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 20:06:44 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/29 20:06:44 logger.go:120: [API] 🔗 URL: http://localhost:2701
+[INFO] 2025/11/29 20:06:44 logger.go:120: [FILE] 📂 Static files: ./static
+[INFO] 2025/11/29 20:06:44 logger.go:120: [DATABASE] 💾 Database: ./tunetudo.db
+[INFO] 2025/11/29 20:06:44 logger.go:120: [API] 📝 Logs: logs/app.log
+[INFO] 2025/11/29 20:06:47 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 20:08:14 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 20:08:14 logger.go:120: [DATABASE] Database initialized at: /Users/neelpatel/UMD Sem 1/ENPM680/ENPM680Fall25Project-neelp27/enpm680fall25project-neelp27/tunetudo/tunetudo.db
+[INFO] 2025/11/29 20:08:14 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 20:08:14 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/29 20:08:14 logger.go:120: [API] 🔗 URL: http://localhost:2701
+[INFO] 2025/11/29 20:08:14 logger.go:120: [FILE] 📂 Static files: ./static
+[INFO] 2025/11/29 20:08:14 logger.go:120: [DATABASE] 💾 Database: ./tunetudo.db
+[INFO] 2025/11/29 20:08:14 logger.go:120: [API] 📝 Logs: logs/app.log
+[INFO] 2025/11/29 20:08:18 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 20:11:40 logger.go:120: [AUTH] New user registered: ID=8
+[WARNING] 2025/11/29 20:14:07 logger.go:129: [AUTH] Failed to update last login time for user_id=8
+[INFO] 2025/11/29 20:14:07 logger.go:120: [AUTH] User login: user_id=8 from IP=127.0.x.x
+[WARNING] 2025/11/29 20:14:09 logger.go:129: [AUTH] Failed to update last login time for user_id=8
+[INFO] 2025/11/29 20:14:09 logger.go:120: [AUTH] User login: user_id=8 from IP=127.0.x.x
+[WARNING] 2025/11/29 20:14:13 logger.go:129: [AUTH] Failed to update last login time for user_id=8
+[INFO] 2025/11/29 20:14:13 logger.go:120: [AUTH] User login: user_id=8 from IP=127.0.x.x
+[INFO] 2025/11/29 20:14:30 logger.go:120: [AUTH] User login: user_id=8 from IP=127.0.x.x
+[INFO] 2025/11/29 20:15:13 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 21:34:13 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 21:34:18 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/29 21:34:25 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 21:34:25 logger.go:142: [API] Request error
+[INFO] 2025/11/29 21:34:32 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 21:35:42 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 21:47:10 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 21:47:14 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 21:47:15 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/29 22:30:11 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:30:11 logger.go:142: [API] Request error
+[ERROR] 2025/11/29 22:30:16 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:30:16 logger.go:142: [API] Request error
+[ERROR] 2025/11/29 22:30:24 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:30:24 logger.go:142: [API] Request error
+[ERROR] 2025/11/29 22:30:28 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:30:28 logger.go:142: [API] Request error
+[INFO] 2025/11/29 22:30:34 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/29 22:31:47 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:31:47 logger.go:142: [API] Request error
+[INFO] 2025/11/29 22:32:14 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:32:17 logger.go:120: [FILE] Song stream authorized: song_id=29
+[ERROR] 2025/11/29 22:32:17 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:32:17 logger.go:142: [API] Request error
+[INFO] 2025/11/29 22:32:39 logger.go:120: [AUTH] User login: user_id=8 from IP=127.0.x.x
+[INFO] 2025/11/29 22:33:40 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/29 22:34:29 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 22:34:29 logger.go:142: [API] Request error
+[INFO] 2025/11/29 22:34:36 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:34:38 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:34:39 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:34:39 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:36:06 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:36:07 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:36:08 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:41:15 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 22:41:15 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 22:41:15 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 22:41:15 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/29 22:41:19 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:41:28 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/29 22:41:29 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:43:37 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 22:43:45 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/29 22:43:46 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 23:00:03 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:00:03 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:00:03 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:00:03 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/29 23:00:11 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 23:00:13 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 23:00:21 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/29 23:00:22 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 23:00:54 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:00:54 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:00:54 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:00:54 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/29 23:00:56 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 23:01:33 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/29 23:01:34 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/29 23:01:43 logger.go:142: [API] Request error
+[ERROR] 2025/11/29 23:01:43 logger.go:142: [API] Request error
+[INFO] 2025/11/29 23:01:58 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:01:58 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:01:58 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:01:58 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:01:58 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:03:15 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:03:15 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:03:15 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:03:15 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:03:15 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:06:27 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:06:27 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:06:27 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:06:27 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:06:27 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:07:47 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:07:47 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:07:47 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:07:47 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:07:47 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:12:58 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:12:58 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:12:58 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:12:58 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:12:58 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:14:06 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:14:06 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:14:06 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:14:06 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:14:06 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:16:04 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:16:04 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:16:04 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:16:04 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:16:04 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:17:19 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:17:19 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:17:19 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:17:19 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:17:19 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:20:24 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:20:24 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:20:24 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:20:24 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:20:24 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:20:55 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:20:55 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:20:55 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:20:55 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:20:55 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:22:44 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:22:44 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:22:44 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:22:44 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:22:44 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:23:59 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:23:59 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:23:59 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:23:59 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:23:59 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:24:29 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:24:29 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:24:29 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:24:29 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:24:29 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:25:27 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:25:27 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:25:27 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:25:27 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:27:17 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 23:27:17 logger.go:142: [API] Request error
+[ERROR] 2025/11/29 23:29:30 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 23:29:30 logger.go:142: [API] Request error
+[INFO] 2025/11/29 23:34:17 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:34:17 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:34:17 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:34:17 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:34:17 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:35:34 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:35:34 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:35:34 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:35:34 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:35:34 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:36:10 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:36:10 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:36:10 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:36:10 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:36:10 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:40:01 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:40:01 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:40:01 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:40:01 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:40:01 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:41:24 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:41:24 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:41:24 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:41:24 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:41:24 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:42:17 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:42:17 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:42:17 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:42:17 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:42:17 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:46:27 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:46:27 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:46:27 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:46:27 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:46:27 logger.go:142: [API] TLS certificate or key file not specified in environment variables
+[INFO] 2025/11/29 23:47:15 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:47:15 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:47:15 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:47:15 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:47:15 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:48:24 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:48:24 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:48:24 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:48:24 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:48:24 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:48:58 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:48:58 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:48:58 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:48:58 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:49:04 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/29 23:49:04 logger.go:142: [API] Request error
+[INFO] 2025/11/29 23:50:36 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:50:36 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:50:36 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:50:36 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:50:36 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:52:15 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:52:15 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:52:15 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:52:15 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:52:15 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:52:34 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:52:34 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:52:34 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:52:34 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:52:34 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:52:49 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:52:49 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:52:49 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:52:49 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:52:49 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:54:45 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:54:45 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:54:45 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:54:45 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:54:45 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:54:56 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:54:56 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:54:56 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:54:56 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/29 23:54:56 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/29 23:55:54 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/29 23:55:54 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/29 23:55:54 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/29 23:55:54 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/30 00:02:19 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 00:02:19 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 00:02:19 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 00:02:19 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 00:02:19 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 00:02:49 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 00:02:49 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 00:02:49 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 00:02:49 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 00:02:49 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 00:02:57 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 00:02:57 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 00:02:57 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 00:02:57 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 00:02:57 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 00:03:28 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 00:03:28 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 00:03:28 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 00:03:28 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 00:03:28 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 00:03:45 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 00:03:45 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 00:03:45 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 00:03:45 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 00:09:32 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/30 00:09:32 logger.go:142: [API] Request error
+[INFO] 2025/11/30 00:09:32 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 10:45:18 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 10:45:18 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 10:45:18 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 10:45:18 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 10:45:18 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 10:45:51 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 10:45:51 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 10:45:51 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 10:45:51 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 10:45:51 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 10:47:00 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 10:47:00 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 10:47:00 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 10:47:00 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/30 10:47:37 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 10:47:42 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 10:47:47 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 10:47:50 logger.go:120: [FILE] Song stream authorized: song_id=25
+[INFO] 2025/11/30 11:40:25 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 11:40:25 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 11:40:25 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 11:40:25 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 11:40:25 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 11:49:30 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 11:49:30 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 11:49:30 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 11:49:30 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 11:49:30 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:07:24 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:07:24 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:07:24 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:07:24 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:07:24 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:07:41 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:07:41 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:07:41 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:07:41 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:07:41 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:09:39 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:09:39 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:09:39 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:09:39 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:09:39 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:10:23 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:10:23 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:10:23 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:10:23 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:10:23 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:10:24 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:10:24 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:10:24 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:10:24 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:10:24 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:10:30 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:10:30 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:10:30 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:10:30 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:10:30 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:11:18 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:11:18 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:11:18 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:11:18 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/30 12:11:21 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 12:12:04 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:12:04 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:12:04 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:12:04 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:12:04 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 12:12:23 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 12:12:23 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 12:12:23 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 12:12:23 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 12:12:23 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:33:18 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:33:18 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:33:18 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:33:18 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:33:18 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:33:21 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:33:21 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:33:21 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:33:21 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:33:21 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:33:45 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:33:45 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:33:45 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:33:45 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:33:45 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:33:46 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:33:46 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:33:46 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:33:46 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:33:46 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:33:47 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:33:47 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:33:47 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:33:47 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:33:47 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:33:48 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:33:48 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:33:48 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:33:48 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:33:48 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:39 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:39 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:39 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:39 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:39 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:40 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:40 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:40 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:40 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:40 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:41 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:41 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:41 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:41 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:41 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:45 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:45 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:45 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:45 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:45 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:46 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:46 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:46 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:46 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:46 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:47 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:47 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:47 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:47 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:47 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:34:48 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:34:48 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:34:48 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:34:48 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:34:48 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:01 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:01 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:01 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:01 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:01 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:02 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:02 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:02 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:02 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:02 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:03 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:03 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:03 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:03 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:03 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:04 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:04 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:04 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:04 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:04 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:09 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:09 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:09 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:09 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:09 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:10 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:10 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:10 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:10 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:10 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:11 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:11 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:11 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:11 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:11 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:12 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:12 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:12 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:12 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:12 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:13 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:13 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:13 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:13 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:13 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:14 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:14 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:14 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:14 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:14 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:15 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:15 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:15 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:15 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:15 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:35:15 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:35:15 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:35:15 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:35:15 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:35:15 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:36:10 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:36:10 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:36:10 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:36:10 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/30 13:36:33 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:36:40 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:40:07 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:07 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:07 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:07 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:40:07 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:40:08 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:08 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:08 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:08 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:40:08 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:40:09 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:09 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:09 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:09 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:40:09 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:40:10 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:10 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:10 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:10 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:40:10 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:40:11 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:11 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:11 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:11 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:40:11 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:40:12 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:12 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:12 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:12 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 13:40:12 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 13:40:19 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 13:40:19 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 13:40:19 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 13:40:19 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/30 13:43:17 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:43:35 logger.go:120: [AUTH] New user registered: ID=9
+[INFO] 2025/11/30 13:43:50 logger.go:120: [AUTH] Password reset email sent to: neelpatel272000@gmail.com
+[INFO] 2025/11/30 13:44:29 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:44:41 logger.go:120: [AUTH] User login: user_id=9 from IP=127.0.x.x
+[INFO] 2025/11/30 13:44:42 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:45:50 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:46:04 logger.go:120: [PLAYLIST] Playlist created: ID=9 by user_id=9
+[INFO] 2025/11/30 13:46:07 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 13:46:10 logger.go:120: [PLAYLIST] Song added to playlist: playlist_id=9 song_id=23
+[INFO] 2025/11/30 13:46:14 logger.go:120: [FILE] Song stream authorized: song_id=23
+[INFO] 2025/11/30 13:46:32 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:29:40 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 16:29:40 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 16:29:40 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 16:29:40 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 16:29:40 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 16:30:27 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 16:30:27 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 16:30:27 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 16:30:27 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/11/30 16:30:27 logger.go:142: [API] Server failed to start: error occurred
+[INFO] 2025/11/30 16:31:09 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/11/30 16:31:09 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/11/30 16:31:09 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/11/30 16:31:09 logger.go:120: [API] 🎵 TuneTudo Server starting
+[INFO] 2025/11/30 16:31:14 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:31:17 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:31:19 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:31:23 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/30 16:33:23 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/30 16:33:23 logger.go:142: [API] Request error
+[INFO] 2025/11/30 16:36:55 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:37:01 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:37:02 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:48:00 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:48:00 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:48:00 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:48:00 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:48:19 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/30 16:48:22 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/30 16:48:23 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:53:27 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:57:49 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 16:58:46 logger.go:120: [AUTH] Password reset email sent to: neelpatel272000@gmail.com
+[INFO] 2025/11/30 17:03:48 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 17:04:00 logger.go:120: [AUTH] User login: user_id=3 from IP=127.0.x.x
+[INFO] 2025/11/30 17:04:01 logger.go:120: [API] Retrieved 12 recent songs
+[ERROR] 2025/11/30 17:04:07 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/30 17:04:07 logger.go:142: [API] Request error
+[ERROR] 2025/11/30 17:04:07 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/11/30 17:04:07 logger.go:142: [API] Request error
+[INFO] 2025/11/30 17:45:21 logger.go:120: [PLAYLIST] Playlist deleted: playlist_id=8 by user_id=3
+[INFO] 2025/11/30 17:45:26 logger.go:120: [PLAYLIST] Playlist created: ID=10 by user_id=3
+[INFO] 2025/11/30 17:45:28 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/11/30 17:45:30 logger.go:120: [PLAYLIST] Song added to playlist: playlist_id=10 song_id=9
+[INFO] 2025/11/30 17:48:36 logger.go:120: [API] Retrieved 12 recent songs
+[INFO] 2025/12/08 09:20:46 logger.go:120: [API] Logger initialized successfully
+[INFO] 2025/12/08 09:20:46 logger.go:120: [DATABASE] Database initialized successfully
+[INFO] 2025/12/08 09:20:46 logger.go:120: [DATABASE] Database migrations completed
+[INFO] 2025/12/08 09:20:46 logger.go:120: [API] 🎵 TuneTudo Server starting
+[ERROR] 2025/12/08 09:21:01 logger.go:142: [API] Request error occurred: error occurred
+[ERROR] 2025/12/08 09:21:01 logger.go:142: [API] Request error

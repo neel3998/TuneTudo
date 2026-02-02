@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneTudo - Music Streaming</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>🎵 TuneTudo</h1>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="playlists.html" id="playlistsLink" style="display: none;">Playlists</a>
+                <a href="uploads.html" id="uploadsLink" style="display: none;">My Library</a>
+                <a href="profile.html" id="profileLink" style="display: none;">Profile</a>
+                <a href="admin.html" id="adminLink" style="display: none;">Admin</a>
+            </div>
+            <div class="nav-auth">
+                <button class="btn btn-primary" id="loginBtn" onclick="showLoginModal()">Login</button>
+                <div class="user-menu" id="userMenu" style="display: none;">
+                    <span id="username"></span>
+                    <button class="btn btn-secondary" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Search Section -->
+        <div class="search-section">
+            <h2>Search for Music</h2>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for songs, artists, or albums...">
+                <button class="btn btn-primary" onclick="performSearch()">Search</button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <!-- Categories Section -->
+        <div class="categories-section">
+            <h2>Browse by Category</h2>
+            <div id="categoriesGrid" class="categories-grid"></div>
+        </div>
+
+        <!-- Recent Songs Section -->
+        <div class="recent-section">
+            <h2>Recently Added</h2>
+            <div id="recentSongs" class="songs-grid"></div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="login(event)">
+                <div class="form-group">
+                    <label>Username or Email</label>
+                    <input type="text" id="loginUsername" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="loginPassword" required>
+                    <div style="text-align: right; margin-top: 0.5rem;">
+                        <a href="forgot-password.html" style="color: var(--primary-color); font-size: 0.9rem; text-decoration: none;">
+                            Forgot Password?
+                        </a>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="isAdmin"> Admin Login
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <p class="text-center">
+                Don't have an account? <a href="#" onclick="showRegisterModal()">Register</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRegisterModal()">&times;</span>
+            <h2>Register</h2>
+            <form id="registerForm" onsubmit="register(event)">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="regUsername" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="regEmail" required>
+                </div>
+                <div class="form-group">
+                    <label>Password (min 8 characters)</label>
+                    <input type="password" id="regPassword" required minlength="8">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+            <p class="text-center">
+                Already have an account? <a href="#" onclick="showLoginModal()">Login</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Audio Player -->
+    <div id="audioPlayer" class="audio-player" style="display: none;">
+        <div class="player-content">
+            <div class="player-info">
+                <span id="playerSongTitle">No song playing</span>
+                <span id="playerArtist"></span>
+            </div>
+            <div class="player-controls">
+                <button onclick="playPause()" id="playPauseBtn">▶️</button>
+                <audio id="audioElement" controls></audio>
+                <button onclick="closePlayer()">✖️</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

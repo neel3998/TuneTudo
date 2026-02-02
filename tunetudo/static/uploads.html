@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library - TuneTudo</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>🎵 TuneTudo</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="playlists.html">Playlists</a>
+                <a href="uploads.html" class="active">My Library</a>
+                <a href="profile.html">Profile</a>
+                <a href="admin.html" id="adminLink" style="display: none;">Admin</a>
+            </div>
+            <div class="nav-auth">
+                <div class="user-menu">
+                    <span id="username"></span>
+                    <button class="btn btn-secondary" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>My Library</h2>
+            <button class="btn btn-primary" onclick="showUploadModal()">+ Upload Track</button>
+        </div>
+
+        <div class="upload-info">
+            <p><strong>Supported formats:</strong> MP4, WAV, MP3 (Max 50MB)</p>
+        </div>
+
+        <div id="uploadsGrid" class="songs-grid"></div>
+        
+        <div id="noUploads" class="empty-state" style="display: none;">
+            <h3>No tracks uploaded yet</h3>
+            <p>Upload your personal music collection to enjoy anytime!</p>
+            <button class="btn btn-primary" onclick="showUploadModal()">Upload Track</button>
+        </div>
+    </div>
+
+    <!-- Upload Modal -->
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeUploadModal()">&times;</span>
+            <h2>Upload Track</h2>
+            <form id="uploadForm" onsubmit="uploadTrack(event)">
+                <div class="form-group">
+                    <label>Select Audio File</label>
+                    <input type="file" id="audioFile" accept=".mp4,.wav,.mp3" required>
+                    <small>Max size: 50MB | Formats: MP4, WAV, MP3</small>
+                </div>
+                <div id="uploadProgress" class="upload-progress" style="display: none;">
+                    <div class="progress-bar">
+                        <div id="progressBarFill" class="progress-fill"></div>
+                    </div>
+                    <p id="progressText">Uploading...</p>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" id="uploadBtn">Upload</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Audio Player -->
+    <div id="audioPlayer" class="audio-player" style="display: none;">
+        <div class="player-content">
+            <div class="player-info">
+                <span id="playerSongTitle">No song playing</span>
+                <span id="playerArtist"></span>
+            </div>
+            <div class="player-controls">
+                <button onclick="playPause()" id="playPauseBtn">▶️</button>
+                <audio id="audioElement" controls></audio>
+                <button onclick="closePlayer()">✖️</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/uploads.js"></script>
+</body>
+</html>
